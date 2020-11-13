@@ -15,8 +15,8 @@ class MyStreamListener(tweepy.StreamListener):
 
 
 # Authenticate to Twitter
-auth = tweepy.OAuthHandler("dddddddddddddddddddd", "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb")
-auth.set_access_token("jjjjjjjjjjjjjjjjjjjjjjjjjjjjjj", "kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk")
+auth = tweepy.OAuthHandler("dddddddddddddddddddd", "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb")
+auth.set_access_token("jjjjjjjjjjjjjjjjjjjjjjjjjjjjjj", "kkkkkkkkkkkkkkkkkkkkkkkkkyfyfuikkkkkkkkkkkk")
 
 # Create API Object
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
