@@ -2,6 +2,7 @@ import tweepy
 
 # Authenticate to Twitter
 auth = tweepy.OAuthHandler("yyyyyyyyyyyyyyyyyyyyyyyyyy", "fffffffffffffffffffffffffffffff")
+## the authentification credentials are hidden
 auth.set_access_token("mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm", "jcmktegdhdddddddddddddddddddd")
 
 # Create API Object
