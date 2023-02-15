@@ -4,7 +4,7 @@ import logging
 import os
 
 logger = logging.getLogger()
-
+# create a logger object
 def create_api():
     consumer_key = os.getenv("CONSUMER_KEY")
     consumer_secret = os.getenv("CONSUMER_SECRET")
